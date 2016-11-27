@@ -2,6 +2,7 @@ from unittest import TestCase
 
 
 class TestIs_prime(TestCase):
+    """Class for testing prime number utilities."""
     def test_is_prime(self):
         from check_prime import is_prime
         self.assertTrue(is_prime(5))
